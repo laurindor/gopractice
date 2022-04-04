@@ -1,8 +1,8 @@
 
 
-package main //Aquí és a on anomenem i es fa referència el paquet principal de Go
+package main 
 
-import (//És opcional però s’acostuma a ser necessari el ús d’aquesta sintaxis a on
+import (//És opcional però acostuma a ser necessari el ús d’aquesta sintaxis a on
 	"fmt" // invoquem els diferents mòduls que intervindran en el nostre script.
 ) //En el nostre cas hem d’emprar el fmt com a funció de sortida.
 
