@@ -3,7 +3,7 @@
 package main 
 
 import (//És opcional però acostuma a ser necessari el ús d’aquesta sintaxis a on
-	"fmt" // invoquem els diferents mòduls que intervindran en el nostre script.
+	"fmt" // invoquem els diferents mòduls que intervindran en el nostre script.(console.log)
 ) //En el nostre cas hem d’emprar el fmt com a funció de sortida.
 
 
@@ -51,6 +51,20 @@ num es la var
 58 es la variable tipus int 
 
 no es pot declarar una variable que no utilitzis!!!! Donarà error
+
+
+
+- - - -
+
++ Variables Booleanas, same as JS, true and false
+
++ strings literal interpretats - els que estan dins de "" però sense salts de linia, /, ', 
+
++ strings literal no interpretats (low string literal) - inclouen tot el que esta dins de ""
+
++ valor zero - tots els tipus de variables poden tenir valor zero, ho interpretem així %T 
+
+
 */
 
 
