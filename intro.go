@@ -70,6 +70,7 @@ no es pot declarar una variable que no utilitzis!!!! Donarà error
 
 verbs
 
+%d representacio d un valor
 %T representació de tipus
 %+v representació de valor
 %q representació de string entre cometes(quote)
@@ -82,6 +83,27 @@ fmt  (format)
 
 strconv (stringconvert)
 
+
+
+
+- - - - - -
+
+
+Switch amb expressió - per defecte és true
+
+Switch sense expressió
+
+
+Fallthough - executa la llogica del case encara que no es compleixi l'expresssio
+switch {
+	case 2 > 6:
+	fmt.Println("No s'acompleix")
+	case 6 > 2:
+		fmt.Println("Si s'acompleix")
+		fallthough
+	default:
+		fmt.Println ("No ho mostris")
+}
 
 
 
