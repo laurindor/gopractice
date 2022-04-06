@@ -4,6 +4,22 @@
 // 3. Un default, mostrant un error.
 package main
 
+import "fmt"
+
 func main() {
+	energia := 78
+	booster := false
+
+	switch {
+	case energia == 100, booster == true:
+		fmt.Println("Energia carregada")
+
+	case energia < 100:
+		energia += 20 // o pots posar energia = energia + 20
+		fmt.Println("Energia actual" , energia, "després de carregar-te 20 unitats")
+	
+	default:
+		fmt.Println("Nivell d'energia incorrecte")
+	}
 
 }
