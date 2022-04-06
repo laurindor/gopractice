@@ -65,6 +65,27 @@ no es pot declarar una variable que no utilitzis!!!! Donarà error
 + valor zero - tots els tipus de variables poden tenir valor zero, ho interpretem així %T 
 
 
+- - -- - - 
+
+
+verbs
+
+%T representació de tipus
+%+v representació de valor
+%q representació de string entre cometes(quote)
+
+
+
+packages
+
+fmt  (format)
+
+strconv (stringconvert)
+
+
+
+
+
 */
 
 
