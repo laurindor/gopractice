@@ -12,7 +12,7 @@ func main() {
 	for i < 20 {
 		{   
 			fmt.Println(i)
-			i +=2 //augmentar 2 unitats
+			i +=2 
 		}
 	}
 }

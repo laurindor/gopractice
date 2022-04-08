@@ -105,6 +105,8 @@ switch {
 		fmt.Println ("No ho mostris")
 }
 
+- - - - -- - 
+
 CICLES FOR
 
 + una única condició que retorna true or false, ojo generant bucles infinits
@@ -113,11 +115,31 @@ for i<10{
 		
 }
 
-+ amb parámetres: init, condition, post:
++ amb parámetres(exercici 13): init, condition, post:
 
 for i:=0; i<=100;i++{
 	fmt.Println(i)
 }
+
++ com a cicle infinit (no te cap paràmetre, sempre es unfinit  s'ha de definir e
+l break):
+
+i := 0
+for {
+
+	if i<10{
+		i++
+	}else{
+		break; 
+	}
+}
+
+- - - - - 
+
+Anidats - exercici 15
+
+
+
 
 */
 
