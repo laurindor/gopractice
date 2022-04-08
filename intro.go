@@ -105,8 +105,19 @@ switch {
 		fmt.Println ("No ho mostris")
 }
 
+CICLES FOR
 
++ una única condició que retorna true or false, ojo generant bucles infinits
 
+for i<10{
+		
+}
+
++ amb parámetres: init, condition, post:
+
+for i:=0; i<=100;i++{
+	fmt.Println(i)
+}
 
 */
 

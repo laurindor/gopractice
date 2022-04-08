@@ -1,3 +1,5 @@
+//mostra els núm parells de l'1 al 20
+
 package main
 
 import (
@@ -6,9 +8,11 @@ import (
 
 func main() {
 	i := 0
+
 	for i < 20 {
-		if i%2 == 0 {
+		{   
 			fmt.Println(i)
+			i +=2 //augmentar 2 unitats
 		}
 	}
 }
