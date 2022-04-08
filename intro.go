@@ -139,7 +139,27 @@ for {
 Anidats - exercici 15
 
 
+Arrays
 
+var x[5]in  - hem d'indicar el tipus de valor
+
+Range
+
+recorrer arrays automàticament, fent servir el for
+
+nums := []int{24, 62, 7, 17, 3}
+
+for i,v := range nums{
+	fmt.Println(i, "",v) 
+}
+
+Slice
+
+Es fa servir literal compost 
+
+//tipus{elements}//COMPOSITE LITERALS
+x := []int{1,2,3,4,5}
+fmt.Println(x[1:3])//[23]
 
 */
 
