@@ -196,6 +196,11 @@ m := map[string]int{
 	fmt.Println(m)
 	fmt.Println(m["Josep"])
 
+Idioma com a ok, en comptes de valor zero ens torna boolean
+
+Structs - ex24, ex25
+
+Funcions
 
 
 
