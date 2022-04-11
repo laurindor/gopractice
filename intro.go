@@ -173,8 +173,28 @@ fmt.Println(x) // [1 4 5]
 
 Make
 
-crea slices amb tres atributs: tipus, longitud (len, els elements que es rpresenten), capacitat (límit d'elements, aforo)
+(ex22) crea slices amb tres atributs: tipus, longitud (len, els elements que es rpresenten), capacitat (límit d'elements, aforo)
 
+Slice multidimensionals
+
+sl := []string{“Samarreta”, “Lacoste”, “Talla L”, “Blava”}
+fmt.Println(sl)
+pd := []string{“Polo”, “Decathlon”, “Talla XL”, “Verd”}
+fmt.Println(pd)
+carro := [][]string{sl, pd}
+fmt.Println(carro)
+
+Datamap
+
+map[index]valor
+
+m := map[string]int{
+	"Josep":6,
+	"Joana":8,
+	"Enric":4, //l'ultim parell de claus ha de portar coma tb
+}
+	fmt.Println(m)
+	fmt.Println(m["Josep"])
 
 
 
