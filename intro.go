@@ -161,6 +161,26 @@ Es fa servir literal compost
 x := []int{1,2,3,4,5}
 fmt.Println(x[1:3])//[23]
 
+
+Append
+
+Es pot eliminar elements d’un Slice emprant append i slicing per a dividir.
+
+x := []int{1, 2, 3, 4, 5}
+x = append(x[:1], x[3:]...)
+fmt.Println(x) // [1 4 5]
+
+
+Make
+
+crea slices amb tres atributs: tipus, longitud (len, els elements que es rpresenten), capacitat (límit d'elements, aforo)
+
+
+
+
+
+
+
 */
 
 
